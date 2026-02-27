@@ -1,59 +1,57 @@
-# AngularProject
+# Projeto de Estudos Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
+Este repositório contém um projeto desenvolvido com o objetivo de estudar e aprofundar conhecimentos no framework **Angular**. O foco principal é a compreensão da arquitetura baseada em componentes e a implementação de elementos de interface reutilizáveis.
 
-## Development server
+## 🎯 Objetivo do Projeto
 
-To start a local development server, run:
+Este é um ambiente de aprendizado prático para:
+*   Entender o ciclo de vida de uma aplicação Angular.
+*   Criar e gerenciar **Componentes Personalizados** (como o `<app-my-component>`).
+*   Praticar a estruturação de templates HTML e estilos CSS encapsulados.
+
+## 🧩 Sobre Componentes no Angular
+
+### O que são?
+No Angular, componentes são os blocos de construção fundamentais da Interface do Usuário (UI). Cada componente consiste em um template HTML, estilos CSS e uma classe TypeScript que define seu comportamento.
+
+### Qual sua função em projetos reais?
+Em aplicações comerciais e de grande escala, a componentização é vital por diversos motivos:
+
+1.  **Reutilização:** Um componente (ex: botão, card, menu) é criado uma única vez e pode ser utilizado em diversas páginas, garantindo consistência visual e funcional.
+2.  **Manutenibilidade:** Como a lógica e o estilo são isolados, corrigir um bug ou alterar o design de um componente reflete automaticamente em toda a aplicação.
+3.  **Modularidade:** Permite que equipes trabalhem em diferentes partes do sistema simultaneamente sem conflitos, dividindo a interface em partes menores e gerenciáveis.
+
+## 🚀 Como utilizar este projeto
+
+Siga as instruções abaixo para baixar e executar o projeto em sua máquina local.
+
+### Pré-requisitos
+
+Certifique-se de ter instalado:
+*   Node.js
+*   Angular CLI (Instale via terminal: `npm install -g @angular/cli`)
+
+### Instalação
+
+1.  Clone este repositório:
+    ```bash
+    git clone <url-do-repositorio>
+    ```
+2.  Acesse a pasta do projeto:
+    ```bash
+    cd angular-project
+    ```
+3.  Instale as dependências do projeto:
+    ```bash
+    npm install
+    ```
+
+### Executando a Aplicação
+
+Para iniciar o servidor de desenvolvimento, execute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Abra o navegador e acesse `http://localhost:4200/`. A aplicação será recarregada automaticamente sempre que você alterar os arquivos de código fonte.
